@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "exshell"
-version = "20250201.0.1"
+version = "2025020200.0.1"
 authors = [
   { name="Takahashi Satoshi", email="muzudho1@gmail.com" },
 ]
