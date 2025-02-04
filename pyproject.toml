@@ -4,12 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "exshell"
-version = "2025020200.0.1"
+version = "2025020400.0.1"
 authors = [
   { name="Takahashi Satoshi", email="muzudho1@gmail.com" },
 ]
 description = "A library for creating console applications that use Excel as a display."
 readme = "README.md"
+requires-python = ">=3.12.3"
 dependencies = [
   "openpyxl>=3.1.5",
   "tomlkit>=0.13.2",
@@ -17,7 +18,8 @@ dependencies = [
 maintainers = [
   { name="Takahashi Satoshi", email="muzudho1@gmail.com" },
 ]
-license = {file = "LICENSE"}
+license = "MIT"
+license-files = ["LICENSE"]
 keywords = ["excel", "console application"]
 classifiers = [
   "Programming Language :: Python"
@@ -31,8 +33,17 @@ Repository = "https://github.com/muzudho/exshell.git"
 exclude = [
   "/examples",      # README.md で紹介されているスクリプト
   "/private",       # 個人用
+  "/temp",
   "/tests",         # 設定しなくても最初から機能するという話しもある
   "*.log",          # Logging
   "*.bak",          # WinMerge
   "*- コピー*",     # Copy file
+  "exshell_config.toml",
+  "gradation.py",
+  "test.py"
 ]
+
+# バグ対策
+# 📖 https://github.com/pypa/twine/issues/1216
+[tool.setuptools]
+license-files = []
