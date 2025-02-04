@@ -1,4 +1,4 @@
-# Exshell 仕様書
+# Exshell 説明書
 
 
 * 📖 [Get started はじめに](./get_started.md)
