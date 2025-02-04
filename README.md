@@ -15,6 +15,6 @@ Exshell ライブラリーの使用例は、以下の［Create a color palette�
 * 📖 [GitHub > Muzudho > Create a color palette](https://github.com/muzudho/create-a-color-palette)  
 
 
-## 仕様書
+## 説明書
 
-* 📖 [Exshell > 仕様書](./docs/README.md)
+* 📖 [Exshell > 説明書](./docs/README.md)
