@@ -2,8 +2,8 @@ import os
 
 from tomlkit import parse as toml_parse
 
-from src.exshell import Exshell
-from src.exshell.wizards import PleaseInputExcelApplicationPath
+from . import Exshell
+from .wizards import PleaseInputExcelApplicationPath
 
 
 class ExshellBuilder():
