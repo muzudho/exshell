@@ -2,9 +2,8 @@ import openpyxl as xl
 import subprocess
 import time
 
-from tomlkit import dumps as toml_dumps
-
 from pathlib import Path
+from tomlkit import dumps as toml_dumps
 
 
 class PleaseInputExcelApplicationPath():

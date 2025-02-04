@@ -13,3 +13,8 @@ Excel をディスプレイと見立てたコンソール・アプリケーシ�
 Exshell ライブラリーの使用例は、以下の［Create a color palette］リポジトリーの実装を参考にしてください。  
 
 * 📖 [GitHub > Muzudho > Create a color palette](https://github.com/muzudho/create-a-color-palette)  
+
+
+## 仕様書
+
+* 📖 [Exshell > 仕様書](./docs/README.md)
