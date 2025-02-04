@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "exshell"
-version = "2025020401.0.1"
+version = "2025020402.0.1"
 authors = [
   { name="Takahashi Satoshi", email="muzudho1@gmail.com" },
 ]
@@ -32,14 +32,11 @@ Repository = "https://github.com/muzudho/exshell.git"
 [tool.hatch.build.targets.sdist]
 exclude = [
   "/docs",          # ドキュメントは GitHub の方にアップロードする
-  "/examples",      # README.md で紹介されているスクリプト
   "/private",       # 個人用
   "/temp",
   "/tests",         # 設定しなくても最初から機能するという話しもある
   "*.log",          # Logging
   "*.bak",          # WinMerge
   "*- コピー*",     # Copy file
-  "exshell_config.toml",
-  "gradation.py",
   "requirements.txt",
 ]
