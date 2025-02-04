@@ -1,14 +1,6 @@
 # Exshell
 
 Excel をディスプレイと見立てたコンソール・アプリケーションを作るライブラリー。  
-サンプル・プログラムが付いています。  
-
-
-## 実装例
-
-Exshell は以下のリポジトリーで利用しています。使い方の参考にしてください。  
-
-* 📖 [GitHub > Muzudho > Create a color palette](https://github.com/muzudho/create-a-color-palette)  
 
 
 ## 事前設定
@@ -20,18 +12,16 @@ Exshell は以下のリポジトリーで利用しています。使い方の参
     * [インストールの手順](https://github.com/muzudho/exshell/blob/main/docs/how_to_install.md)
 
 
-## 例１
+## Exshell ライブラリーの使用例。サンプル・プログラムの動かし方
 
-### 概要
+Exshell ライブラリーの使用例は、以下の［Create a color palette］リポジトリーの実装を参考にしてください。  
 
-![成果物](https://github.com/muzudho/exshell/raw/main/docs/img/202502__pg__01-2238--upper-case.png)  
-
-👆　上図のような表を作成するアプリケーションです。  
+* 📖 [GitHub > Muzudho > Create a color palette](https://github.com/muzudho/create-a-color-palette)  
 
 
-### 実行手順
+### 大まかな紹介
 
-以下のコマンドを打鍵してください。  
+［Create a color palette］リポジトリーを展開したディレクトリーで、以下のコマンドを打鍵してください。  
 
 ```shell
 py gradation.py
