@@ -8,13 +8,7 @@ Excel をディスプレイと見立てたコンソール・アプリケーシ�
 * Exshell を使うには、デスクトップ・アプリ版の Microsoft Excel がインストールされていることが必要です
 
 
-## Exshell ライブラリーの使用例
+## 説明
 
-Exshell ライブラリーの使用例は、以下の［Create a color palette］リポジトリーの実装を参考にしてください。  
-
-* 📖 [GitHub > Muzudho > Create a color palette](https://github.com/muzudho/create-a-color-palette)  
-
-
-## 説明書
-
-* 📖 [Exshell > 説明書](./docs/README.md)
+* 📖 [Exshell > 説明書](https://github.com/muzudho/exshell/tree/main/docs)
+* 📖 [Exshell > 実装例](https://github.com/muzudho/create-a-color-palette) - ［Create a color palette］リポジトリー
