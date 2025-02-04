@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "exshell"
-version = "2025020400.0.1"
+version = "2025020401.0.1"
 authors = [
   { name="Takahashi Satoshi", email="muzudho1@gmail.com" },
 ]
@@ -42,10 +42,4 @@ exclude = [
   "exshell_config.toml",
   "gradation.py",
   "requirements.txt",
-  "test.py"
 ]
-
-# バグ対策
-# 📖 https://github.com/pypa/twine/issues/1216
-[tool.setuptools]
-license-files = []
