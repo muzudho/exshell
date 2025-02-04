@@ -31,6 +31,7 @@ Repository = "https://github.com/muzudho/exshell.git"
 # ビルドツールの設定
 [tool.hatch.build.targets.sdist]
 exclude = [
+  "/docs",          # ドキュメントは GitHub の方にアップロードする
   "/examples",      # README.md で紹介されているスクリプト
   "/private",       # 個人用
   "/temp",
@@ -40,6 +41,7 @@ exclude = [
   "*- コピー*",     # Copy file
   "exshell_config.toml",
   "gradation.py",
+  "requirements.txt",
   "test.py"
 ]
 
