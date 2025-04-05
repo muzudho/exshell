@@ -128,7 +128,7 @@ exshell.open_virtual_display()
 ### 手順１０：　任意で入力を取る
 
 ```py
-line = input('数字入れろ')
+line = input('何か入力してください。')
 print() # 空行
 ```
 
