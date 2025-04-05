@@ -27,6 +27,15 @@ PATH_TO_EXSHELL_WORKSHEET = './temp/exshell_work.xlsx'
 １つは設定ファイル、もう１つはテンポラリー・ファイルです。  
 
 
+#### （任意） .gitignore
+
+もし分かるなら、📄 `.gitignore` ファイルに以下の内容を記述しておくといいかもしれません。
+
+```plaintext
+/temp
+```
+
+
 ### 手順３：　エクシェル・ビルダーの生成
 
 ```py
