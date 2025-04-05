@@ -12,7 +12,7 @@ import exshell as xs
 from pathlib import Path
 ```
 
-👆　特に決まりはありませんが、`xs` という別名を付けるとしましょう。  
+👆　特に決まりはありませんが、本記事では `xs` という別名を付けるとしましょう。  
 `Path` は、ファイルを扱うのに便利です。  
 
 
